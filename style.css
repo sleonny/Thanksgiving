@@ -1,8 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap');
-:root{--ink:#302b25;--muted:#786f63;--cream:#f7f1e7;--paper:#fffdf8;--rust:#a64f35;--gold:#c69a54;--line:#e9dfd0}
-*{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--ink);font-family:'DM Sans',sans-serif}
-.site-header{max-width:1120px;margin:auto;padding:24px 28px;display:flex;justify-content:space-between;align-items:center}.brand{font-family:'Playfair Display',serif;font-weight:700;color:var(--ink);text-decoration:none;font-size:20px}.header-note,.small-note{color:var(--muted);font-size:13px;letter-spacing:.04em}
-.home-main{width:min(100% - 36px,940px);margin:30px auto 55px}.intro{text-align:center;margin:0 auto 28px}.eyebrow{color:var(--rust);font-weight:700;font-size:11px;letter-spacing:.2em}.intro h1{font:700 clamp(38px,7vw,64px)/1.08 'Playfair Display',serif;margin:12px 0}.intro h1 em{color:var(--rust)}.intro-copy{color:var(--muted);font-size:16px}
-.photo-card{background:var(--paper);padding:12px;border:1px solid var(--line);border-radius:18px;box-shadow:0 18px 55px #59432a14}.photo-wrap{position:relative;overflow:hidden;border-radius:11px;line-height:0}.family-photo{display:block;width:100%;height:auto}.hotspots{position:absolute;inset:0;width:100%;height:100%}.hotspots a{cursor:pointer;outline:none}.hotspots polygon{fill:transparent;stroke:transparent;stroke-width:3;transition:fill .18s,stroke .18s}.hotspots a:hover polygon,.hotspots a:focus polygon{fill:#f5c76b30;stroke:#fff4d7}.photo-caption{text-align:center;padding:15px 8px 5px;color:var(--muted);font-size:13px}.photo-caption span{color:var(--gold);padding:0 8px}.small-note{text-align:center;margin-top:22px}.site-footer{text-align:center;padding:24px;color:var(--muted);font:italic 14px 'Playfair Display',serif}
-.day-main{width:min(100% - 36px,850px);margin:35px auto 70px}.back-link{color:var(--rust);text-decoration:none;font-weight:700;font-size:13px}.day-hero{margin-top:26px;padding:42px 38px;background:var(--paper);border:1px solid var(--line);border-radius:18px}.day-hero .eyebrow{margin:0 0 10px}.day-hero h1{font:700 clamp(36px,6vw,54px)/1.1 'Playfair Display',serif;margin:0 0 12px}.day-hero p{color:var(--muted);margin:0}.plan-section{margin-top:28px}.plan-section h2{font:700 25px 'Playfair Display',serif}.activity-list{display:grid;gap:12px}.activity{background:var(--paper);border:1px solid var(--line);border-radius:13px;padding:19px 21px;display:flex;gap:15px;align-items:flex-start}.activity-icon{font-size:22px}.activity h3{margin:0 0 5px;font-size:16px}.activity p{margin:0;color:var(--muted);font-size:14px;line-height:1.5}.activity a{display:inline-block;margin-top:9px;color:var(--rust);font-weight:700;font-size:13px}.placeholder{border:1px dashed #d7c7b1;background:#fbf7ef;border-radius:13px;padding:20px;color:var(--muted);line-height:1.6}.day-footer{margin-top:32px;text-align:center;color:var(--muted);font:italic 14px 'Playfair Display',serif}
-@media(max-width:600px){.site-header{padding:18px 18px}.header-note{font-size:11px}.home-main{margin-top:18px}.intro-copy{font-size:14px}.photo-card{padding:7px;border-radius:13px}.photo-caption{font-size:12px}.day-hero{padding:30px 23px}.day-main{margin-top:22px}}
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Patrick+Hand:wght@400&display=swap');
+:root{--ink:#29251f;--muted:#64594a;--cream:#fff4d6;--paper:#fffdf4;--rust:#c94f2d;--gold:#e7aa24;--line:#302b25;--blue:#8ecbd0;--red:#c94f2d}
+*{box-sizing:border-box}
+body{margin:0;background-color:var(--cream);background-image:radial-gradient(#d9b85b55 1.2px,transparent 1.2px);background-size:13px 13px;color:var(--ink);font-family:'Patrick Hand',cursive;font-size:18px}
+.site-header{max-width:1120px;margin:auto;padding:24px 28px;display:flex;justify-content:space-between;align-items:center}
+.brand{font-family:'Bree Serif',serif;font-weight:400;color:var(--ink);text-decoration:none;font-size:22px;letter-spacing:.04em;transform:rotate(-2deg)}
+.header-note,.small-note{color:var(--muted);font-size:17px;letter-spacing:.06em}
+.home-main{width:min(100% - 36px,940px);margin:26px auto 55px}
+.intro{text-align:center;margin:0 auto 28px}
+.eyebrow{display:inline-block;background:var(--gold);color:var(--ink);font-family:'Bree Serif',serif;font-size:14px;letter-spacing:.13em;padding:7px 15px;border:2px solid var(--ink);border-radius:5px;box-shadow:3px 3px 0 var(--ink);transform:rotate(-1deg)}
+.intro h1{font:400 clamp(36px,7vw,66px)/1.08 'Bree Serif',serif;margin:16px 0 10px;text-shadow:2px 2px 0 #fff}
+.intro h1 em{color:var(--rust);font-style:normal}
+.intro-copy{color:var(--muted);font-size:22px;margin:8px 0}
+.photo-card{background:var(--paper);padding:12px;border:3px solid var(--ink);border-radius:7px;box-shadow:8px 8px 0 var(--ink);transform:rotate(-.35deg)}
+.photo-wrap{position:relative;overflow:hidden;border:2px solid var(--ink);border-radius:3px;line-height:0}
+.family-photo{display:block;width:100%;height:auto}
+.hotspots{position:absolute;inset:0;width:100%;height:100%}
+.hotspots a{cursor:pointer;outline:none}
+.hotspots polygon{fill:transparent;stroke:transparent;stroke-width:3;transition:fill .18s,stroke .18s}
+.hotspots a:hover polygon,.hotspots a:focus polygon{fill:#f5c76b55;stroke:#fff;stroke-width:4;stroke-dasharray:7 4}
+.photo-caption{text-align:center;padding:16px 8px 5px;color:var(--ink);font:400 17px 'Bree Serif',serif;letter-spacing:.06em}
+.photo-caption span{color:var(--rust);padding:0 8px}
+.small-note{text-align:center;margin-top:26px;font-family:'Bree Serif',serif;font-size:17px;color:var(--rust);letter-spacing:.16em}
+.site-footer{text-align:center;padding:24px;color:var(--muted);font:400 17px 'Bree Serif',serif;letter-spacing:.05em}
+.day-main{width:min(100% - 36px,850px);margin:35px auto 70px}
+.back-link{color:var(--rust);text-decoration:none;font-weight:bold;font-size:18px}
+.day-hero{margin-top:26px;padding:42px 38px;background:var(--paper);border:3px solid var(--ink);border-radius:7px;box-shadow:6px 6px 0 var(--ink)}
+.day-hero .eyebrow{margin:0 0 15px}
+.day-hero h1{font:400 clamp(36px,6vw,54px)/1.1 'Bree Serif',serif;margin:0 0 12px}
+.day-hero p{color:var(--muted);margin:0;font-size:20px}
+.plan-section{margin-top:28px}
+.plan-section h2{font:400 29px 'Bree Serif',serif}
+.activity-list{display:grid;gap:12px}
+.activity{background:var(--paper);border:2px solid var(--ink);border-radius:7px;padding:19px 21px;display:flex;gap:15px;align-items:flex-start;box-shadow:3px 3px 0 #302b2533}
+.activity-icon{font-size:25px}
+.activity h3{margin:0 0 5px;font:400 21px 'Bree Serif',serif}
+.activity p{margin:0;color:var(--muted);font-size:18px;line-height:1.45}
+.activity a{display:inline-block;margin-top:9px;color:var(--rust);font-weight:bold;font-size:18px}
+.placeholder{border:2px dashed var(--ink);background:#fff9e8;border-radius:7px;padding:20px;color:var(--muted);line-height:1.5}
+.day-footer{margin-top:32px;text-align:center;color:var(--muted);font:400 17px 'Bree Serif',serif}
+@media(max-width:600px){.site-header{padding:18px 18px;gap:10px}.brand{font-size:18px}.header-note{font-size:14px;text-align:right}.home-main{margin-top:18px}.intro-copy{font-size:19px}.photo-card{padding:7px;border-radius:6px;box-shadow:5px 5px 0 var(--ink)}.photo-caption{font-size:13px}.day-hero{padding:30px 23px}.day-main{margin-top:22px}}
