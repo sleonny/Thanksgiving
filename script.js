@@ -5,8 +5,8 @@ document.querySelectorAll('.hotspots a').forEach((link) => {
 });
 
 // Configuración de Cloudinary. Requiere nombre de nube y preset de carga sin firma.
-const CLOUDINARY_CLOUD_NAME = 'CONFIGURA_NOMBRE_DE_NUBE';
-const CLOUDINARY_UPLOAD_PRESET = 'CONFIGURA_PRESET';
+const CLOUDINARY_CLOUD_NAME = 'zpcfuuvx';
+const CLOUDINARY_UPLOAD_PRESET = 'thanksgiving_family';
 
 document.querySelectorAll('.upload-button').forEach((button) => {
   const day = button.dataset.day;
