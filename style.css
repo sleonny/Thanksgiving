@@ -39,3 +39,11 @@ body{margin:0;background-color:var(--cream);background-image:radial-gradient(#d9
 .placeholder{border:2px dashed var(--ink);background:#fff9e8;border-radius:7px;padding:20px;color:var(--muted);line-height:1.5}
 .day-footer{margin-top:32px;text-align:center;color:var(--muted);font:400 17px 'Bree Serif',serif}
 @media(max-width:600px){.site-header{padding:18px 18px;gap:10px}.brand{font-size:18px}.header-note{font-size:14px;text-align:right}.home-main{margin-top:18px}.intro-copy{font-size:19px}.photo-card{padding:7px;border-radius:6px;box-shadow:5px 5px 0 var(--ink)}.photo-caption{font-size:13px}.day-hero{padding:30px 23px}.day-main{margin-top:22px}}
+
+.upload-button{display:inline-block;background:var(--gold);color:var(--ink);border:2px solid var(--ink);border-radius:6px;padding:12px 22px;font:400 20px 'Bree Serif',serif;box-shadow:3px 3px 0 var(--ink);cursor:pointer}
+.upload-button:hover{transform:translateY(-1px)}
+.upload-status{color:var(--muted);font-size:17px}
+.photo-gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;margin-top:18px}
+.photo-gallery img{width:100%;height:220px;object-fit:cover;border:2px solid var(--ink);border-radius:5px;background:var(--paper)}
+.photo-upload-section{background:var(--paper);border:2px solid var(--ink);border-radius:7px;padding:20px;box-shadow:3px 3px 0 #302b2533}
+.photo-upload-section>p{color:var(--muted)}
